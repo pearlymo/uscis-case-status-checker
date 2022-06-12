@@ -8,8 +8,7 @@ def run(*args):
 
 
 def run_script():
-    run("python3", "check_tps.py")
-    run("python3", "check_ead.py")
+    run("python3", "checker.py")
 
 
 schedule.every().day.at("09:00").do(run_script)
